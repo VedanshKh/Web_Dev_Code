@@ -1,0 +1,17 @@
+.animation {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    font-size: 275px;
+    background: linear-gradient(rgb(19, 159, 201), rgb(17, 215, 7));
+    animation: 7s ease-in 0s infinite running coldplay;
+}
+
+@keyframes coldplay {
+    0% { background-color: red; }
+    20% { background-color: yellow; }
+    40% { background-color: goldenrod; }
+    60% { background-color: rgb(133, 20, 77); }
+    80% { background-color: blue; }
+    100% { background-color: tomato; }
+}
